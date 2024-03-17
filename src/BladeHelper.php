@@ -23,9 +23,7 @@ class BladeHelper
     /**
      * Create a helper directive for a regular function.
      *
-     * @param string          $directiveName
-     * @param string|callable $function
-     * @param bool            $shouldEcho
+     * @param  string|callable  $function
      */
     public function directive(string $directiveName, $function = null, bool $shouldEcho = true)
     {
@@ -51,9 +49,7 @@ class BladeHelper
     /**
      * Get and execute a callback helper directive.
      *
-     * @param string $name
-     * @param mixed  ...$arguments
-     *
+     * @param  mixed  ...$arguments
      * @return mixed
      */
     public function getDirective(string $name, ...$arguments)
@@ -64,8 +60,6 @@ class BladeHelper
     /**
      * Register an "if" statement directive.
      *
-     * @param string $directiveName
-     * @param callable $function
      *
      * @return void
      */

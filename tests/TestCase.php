@@ -10,7 +10,6 @@ abstract class TestCase extends BaseTestCase
     /**
      * Add the package's service provider.
      *
-     * @param $app
      *
      * @return array
      */
